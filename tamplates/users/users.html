@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> Tamplate users </h1>
+{% for user in users %}
+<h1>{{ user.id }} -- {{ user.name }} -- {{ user.age }}</h1>
+{% endfor %}
+
+<h1>{{ user1.id }} -- {{ user1.name }} -- {{ user1.age }}</h1>
+
+</body>
+</html>
